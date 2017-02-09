@@ -48,6 +48,8 @@ app.controller("myCtrl", function($scope) {
 	<button ng-click="undo()">Undo</button>
 	<button ng-click="clearAll()">Clear</button>
 	<button ng-click="removePolygon(activePolygon)">Remove</button>
+  {{points}}
+  <br/><br/>
   <div canvas-area-draw points="points"
      active="activePolygon" image-url="imageSrc"
      enabled="enabled" palette="colorArray"></div>
