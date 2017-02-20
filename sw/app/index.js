@@ -7,7 +7,7 @@ function routesConfig($stateProvider, $urlRouterProvider, $locationProvider) {
         enabled: false,
         requireBase: false
     }).hashPrefix('');
-    $urlRouterProvider.otherwise('/home');
+    $urlRouterProvider.otherwise('/');
     $stateProvider
     .state('home', {
         url: '/',
